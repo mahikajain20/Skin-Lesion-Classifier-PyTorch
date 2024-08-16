@@ -1,12 +1,13 @@
 # **Skin Lesion Classification using PyTorch and Stanford DDI Dataset**
 
-***Final Project Lighthouse Labs (Data Science Bootcamp)**
-
 ## Overview
 
 This project aims to develop a deep learning model for classifying skin lesions using the Stanford Diverse Dermatology Images (DDI) dataset. 
 
-We'll be using PyTorch to build and train a Convolutional Neural Network (CNN) for this binary classification task.
+<img width="888" alt="Screenshot 2024-08-16 at 4 43 14 PM" src="https://github.com/user-attachments/assets/724f72bc-6e90-4476-a5aa-b50480c3ad64">
+
+
+I'll be using PyTorch to build and train a Convolutional Neural Network (CNN) for this binary classification task.
 
 The goal is to accurately distinguish between two classes of skin lesions, which can aid in early detection and diagnosis of skin conditions. This project will explore various aspects of deep learning, including data preparation, model architecture design, and hyperparameter tuning.
 
@@ -89,6 +90,9 @@ For the validation and test datasets, the transformations are simpler; No data a
 - **Evaluation Metrics:** The models were evaluated using accuracy, precision, recall, loss, confusion matrices and ROC-AUC. These metrics were calculated for each class, ensuring a comprehensive understanding of model performance.
 
 ### Results 
+
+<img width="807" alt="Screenshot 2024-08-16 at 4 44 10 PM" src="https://github.com/user-attachments/assets/812618a3-d650-4f82-a884-11c5a3647254">
+
 
 | Model | Architecture | Dropout Rate | Training Loss | Training Accuracy | Training AUC | Validation Loss | Validation Accuracy | Validation AUC |
 |-------|--------------|--------------|---------------|-------------------|--------------|-----------------|---------------------|----------------|
